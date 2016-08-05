@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "app_id": "",
+  "documentRoot": "./src/main/resources/public",
+    "gulpStartupTasks": [
+      "sass",
+      "watch"
+    ],
+    "watchPatterns": [
+        "public/**/*",
+        "!www/css/**/*"
+      ]
+}
