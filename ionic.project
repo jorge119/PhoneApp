@@ -1,13 +1,11 @@
 {
-  "name": "example",
+  "name": "phoneApp",
   "app_id": "",
-  "documentRoot": "./src/main/resources/public",
+  "documentRoot": "./src/main/resources/public/index.html",
     "gulpStartupTasks": [
-      "sass",
-      "watch"
+      "sass"
     ],
     "watchPatterns": [
-        "public/**/*",
-        "!www/css/**/*"
+        "public/**/*"
       ]
 }
