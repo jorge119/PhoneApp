@@ -1,0 +1,9 @@
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white;
+}
+.md-hue-2.header{
+  background-color: rgb(120, 0, 0) !important;
+}
+.title {
+  color: white;
+}

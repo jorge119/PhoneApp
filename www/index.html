@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html  ng-app="phoneApp" ng-controller="phoneController as app" lang="en">
+<head>
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>San Marcos</title>
+
+  <!--Stylesheets-->
+  <link href="../src/main/resources/public/css/style.css" rel="stylesheet">
+  <link href="../src/main/resources/public/css/ionic.css" rel="stylesheet">
+  <link href="../src/main/resources/public/css/header.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- Header -->
+<div>
+  <div style="z-index:5;">
+    <div ng-include="'src/main/resources/public/views/header/header.html'"></div>
+    <!--     <div ng-include="'oldViews/header.html'"></div> -->
+  </div>
+</div>
+<md-content>
+  <!--Main content-->
+  <div>
+    <div ng-include="'src/main/resources/public/views/barsView/barsList.html'"></div>
+  </div>
+</md-content>
+<!--
+  The nav bar that will be updated as we navigate between views.
+-->
+
+<!--
+  The views will be rendered in the <ion-nav-view> directive below
+  Templates are in the /templates folder (but you could also
+  have templates inline in this html file if you'd like).
+-->
+<!-- ionic/angularjs js -->
+<script src="src/main/resources/public/js/ionic.bundle.js"></script>
+<!-- cordova script (this will be a 404 during development) -->
+<script src="cordova.js"></script>
+<script src="src/main/resources/public/js/default/angular-material.min.js"></script>
+<script src="src/main/resources/public/js/angular/angular-animate.js"></script>
+<script src="src/main/resources/public/js/default/angular-aria.min.js"></script>
+
+<!-- Add your controllers, directives, services below -->
+<script src="src/main/resources/public/js/app.js"></script>
+<script src="src/main/resources/public/views/header/header.js"></script>
+
+</body>
+</html>
