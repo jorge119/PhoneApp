@@ -13,7 +13,7 @@
 
 
   function Header($scope, $state, $window)  {
-    var vm = this;
+    var self = this;
 
 
   }
