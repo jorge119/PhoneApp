@@ -1,10 +1,10 @@
 .toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
   color: white;
 }
-.platform-android6 .md-hue-2.header{
+.platform-android nav .main-header{
   background-color: rgb(120, 0, 0) !important;
 }
-.platform-browser .md-hue-2.header{
+nav .main-header{
   background-color: rgb(120, 0, 0) !important;
 }
 .title {

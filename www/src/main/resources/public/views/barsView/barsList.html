@@ -1,18 +1,21 @@
-<span ng-controller="barsListController as bars">
-<md-card md-theme="{{ showDarkTheme ? 'dark-blue' : 'default' }}" md-theme-watch>
-  <md-card-title>
-    <md-card-title-text>
-      <span class="md-headline">Bar</span>
-      <span class="md-subhead">Description</span>
-    </md-card-title-text>
-    <md-card-title-media>
-      <div class="md-media-md card-media"></div>
-    </md-card-title-media>
-  </md-card-title>
-  <md-card-actions layout="row" layout-align="end center">
-    <md-button>Action 1</md-button>
-    <md-button>Action 2</md-button>
-  </md-card-actions>
-</md-card>
+<span ng-controller="barsListController as barsData">
+  <div ng-repeat="bars in barsData.barsArray">
+ <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img ng-src="src/main/resources/public/images/large-TapRoom.jpg" temp="BAR NAME">
+              <span class="card-title">{{bars.name}}</span>
+            </div>
+            <div class="card-content">
+              <p>{{bars.description}}</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Specials</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </span>
 

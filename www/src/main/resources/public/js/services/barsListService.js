@@ -16,9 +16,8 @@
 
     /*GET request that returns the bar data upon success*/
     function getBars() {
-      var bars = $http.get('src/main/resources/public/data/bars.json')
-        .then(getBarsComplete)
-        .catch(getBarsFailed);
+      return $http.get('src/main/resources/public/data/bars.json');
+
 
     }
 

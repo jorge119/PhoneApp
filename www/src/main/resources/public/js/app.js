@@ -12,8 +12,7 @@
   'use strict';
 
   angular.module('phoneApp', [
-    'ionic',
-    'ngMaterial'
+    'ionic'
 
   ])
     .config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {

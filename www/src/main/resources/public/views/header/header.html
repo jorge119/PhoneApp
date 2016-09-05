@@ -1,16 +1,10 @@
 <div ng-controller="headerController as image" ng-cloak>
-  <md-content>
-    <br>
-    <md-toolbar class="md-hue-2 header">
-      <div class="md-toolbar-tools">
-        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="false">
-          <md-icon md-font-library="material-icons">&#xE5D2;</md-icon>
-        </md-button>
-        <h2>
-          <span class="title">Drinks San Marcos</span>
-        </h2>
-        <span flex></span>
-      </div>
-    </md-toolbar>
-  </md-content>
+  <nav>
+    <div class="nav-wrapper main-header">
+      <a href="#!" class="brand-logo"><img ng-src="src/main/resources/public/images/ic_menu_black_24px.svg"> Drinks San Marcos</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#!"><img ng-src="src/main/resources/public/images/ic_search_white_24px.svg"></a></li>
+      </ul>
+    </div>
+  </nav>
 </div>

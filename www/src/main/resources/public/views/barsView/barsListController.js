@@ -23,15 +23,12 @@
       getBarsData();
     }
     function getBarsData() {
-      console.log("here")
       barsListService.getBars()
-        .then(handleBars())
-        .catch(error);
+        .success(function(response) {
+         return self.barsArray = response;
+        });
     }
 
-    function handleBars(response) {
-      console.log(response);
-    }
 
 
   }
