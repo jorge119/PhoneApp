@@ -24,13 +24,14 @@
 </head>
 <body>
 <!-- Header -->
+<ion-content scrollbar-x="false" has-bouncing="true">
 <div>
   <div style="z-index:5;">
     <div ng-include="'src/main/resources/public/views/header/header.html'"></div>
     <!--     <div ng-include="'oldViews/header.html'"></div> -->
   </div>
 </div>
-<ion-content>
+
   <!--Main content-->
   <div>
     <div ng-include="'src/main/resources/public/views/barsView/barsList.html'"></div>
@@ -60,6 +61,9 @@
 
 <!--services-->
 <script src="src/main/resources/public/js/services/barsListService.js"></script>
+
+<!--directives-->
+<script src="src/main/resources/public/js/directives/SpecialsModal.html"></script>
 
 </body>
 </html>
