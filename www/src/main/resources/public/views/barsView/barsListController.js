@@ -8,18 +8,18 @@
 
 
   //inject dependencies
-  barsList.$inject = ['$scope', '$state', '$window', '$http', 'barsListService', '$ionicModal'];
+  barsList.$inject = ['$scope', '$state', '$window', '$http', 'barsListService', '$ionicModal', '$ionicSideMenuDelegate'];
 
 
 
-  function barsList($scope, $state, $window, $http, barsListService, $ionicModal)  {
+  function barsList($scope, $state, $window, $http, barsListService, $ionicModal, $ionicSideMenuDelegate)  {
     var self = this;
 
     self.dataLoading = false;
 
     //Public functions
     activate();
-
+    self.toggleLeft = toggleLeft;
 
     function activate() {
       getBarsData();
@@ -32,6 +32,7 @@
          return self.barsArray = response;
         });
     }
+
     $ionicModal.fromTemplateUrl('src/main/resources/public/js/directives/SpecialsModal.html', {
       scope: $scope,
       animation: 'slide-in-up'
@@ -58,6 +59,10 @@
     $scope.$on('modal.removed', function() {
       // Execute action
     });
+
+    function toggleLeft() {
+      $ionicSideMenuDelegate.toggleLeft();
+    }
 
 
 
