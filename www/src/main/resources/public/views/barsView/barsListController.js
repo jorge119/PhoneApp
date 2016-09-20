@@ -4,7 +4,10 @@
 (function() {
   angular
     .module('phoneApp')
-    .controller('barsListController', barsList);
+    .controller('barsListController', barsList)
+    .config(function($ionicConfigProvider) {
+    $ionicConfigProvider.views.swipeBackEnabled(false);
+  });
 
 
   //inject dependencies

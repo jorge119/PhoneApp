@@ -1,12 +1,13 @@
 .toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
   color: white;
 }
-.platform-android nav .main-header{
-  background-color: rgb(120, 0, 0) !important;
-}
-nav .main-header{
-  background-color: rgb(120, 0, 0) !important;
-}
 .title {
   color: white;
+}
+
+.platform-android .bar-maroon {
+  background-color: rgb(120, 0, 0) !important;
+}
+.bar-maroon {
+  background-color: rgb(120, 0, 0) !important;
 }
