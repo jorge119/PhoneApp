@@ -14,6 +14,7 @@
   <link href="src/main/resources/public/css/style.css" rel="stylesheet">
   <link href="src/main/resources/public/css/materialize.css" rel="stylesheet">
   <link href="src/main/resources/public/css/ionic.css" rel="stylesheet">
+  <link href="src/main/resources/public/css/buttons.css" rel="stylesheet">
   <link href="src/main/resources/public/views/header/header.css" rel="stylesheet">
 
   <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
@@ -23,20 +24,28 @@
 
 </head>
 <body>
-<!-- Header -->
-<ion-content scrollbar-x="false" has-bouncing="true">
-<div>
-  <div style="z-index:5;">
-    <div ng-include="'src/main/resources/public/views/header/header.html'"></div>
-    <!--     <div ng-include="'oldViews/header.html'"></div> -->
-  </div>
-</div>
+<ion-side-menus>
 
-  <!--Main content-->
-  <div>
-    <div ng-include="'src/main/resources/public/views/barsView/barsList.html'"></div>
-  </div>
-</ion-content>
+  <ion-side-menu side="left">
+    Hello World
+  </ion-side-menu>
+  <ion-side-menu-content>
+    <!-- Header -->
+    <ion-content scrollbar-x="false" has-bouncing="true">
+      <div>
+        <div >
+          <div ng-include="'src/main/resources/public/views/header/header.html'"></div>
+          <!--     <div ng-include="'oldViews/header.html'"></div> -->
+        </div>
+      </div>
+      <br><br>
+      <!--Main content-->
+      <div>
+        <div ng-include="'src/main/resources/public/views/barsView/barsList.html'"></div>
+      </div>
+    </ion-content>
+  </ion-side-menu-content>
+</ion-side-menus>
 <!--
   The nav bar that will be updated as we navigate between views.
 -->
@@ -50,6 +59,7 @@
 <script src="src/main/resources/public/js/ionic.bundle.js"></script>
 <!-- cordova script (this will be a 404 during development) -->
 <script src="cordova.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="src/main/resources/public/js/default/materialize.js"></script>
 <script src="src/main/resources/public/js/angular/angular-animate.js"></script>
 <script src="src/main/resources/public/js/default/angular-aria.min.js"></script>

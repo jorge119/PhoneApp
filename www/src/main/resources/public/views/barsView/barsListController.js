@@ -19,10 +19,10 @@
     var self = this;
 
     self.dataLoading = false;
+    self.open = open;
 
     //Public functions
     activate();
-    self.toggleLeft = toggleLeft;
 
     function activate() {
       getBarsData();
@@ -36,6 +36,9 @@
         });
     }
 
+    function open() {
+      $ionicSideMenuDelegate.toggleLeft();
+    };
     $ionicModal.fromTemplateUrl('src/main/resources/public/js/directives/SpecialsModal.html', {
       scope: $scope,
       animation: 'slide-in-up'
@@ -62,12 +65,6 @@
     $scope.$on('modal.removed', function() {
       // Execute action
     });
-
-    function toggleLeft() {
-      $ionicSideMenuDelegate.toggleLeft();
-    }
-
-
 
   }
 

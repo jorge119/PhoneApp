@@ -1,9 +1,9 @@
 <span ng-controller="barsListController as barsData">
   <ion-spinner class="android" ng-if="barsData.dataLoading"></ion-spinner>
-  <div ng-repeat="bars in barsData.barsArray">
-    <div class="row">
+  <div ng-repeat="bars in barsData.barsArray" hide-nav-bar="true">
+    <ul class="collection">
         <div class="col s12 m7">
-          <ul class="card">
+          <li class="card">
             <div class="card-image">
               <img ng-src="src/main/resources/public/images/large-TapRoom.jpg" temp="BAR NAME">
               <span class="card-title">{{bars.name}}</span>
@@ -16,10 +16,9 @@
               <a ng-click="modal.show()">Specials</a>
               <a href="#">Directions</a>
             </div>
-          </ul>
+          </li>
         </div>
-    </div>
+    </ul>
   </div>
 </span>
-
 
