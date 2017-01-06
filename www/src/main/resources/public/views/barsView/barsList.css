@@ -6,3 +6,15 @@
 .barDescription {
   color: #546E7A;
 }
+#specialsIcon {
+  fill: #757575;
+}
+#specialsModal {
+  color: #546E7A;
+}
+#directionsModal {
+  color: #546E7A;
+}
+img.circle {
+  background: #eeeeee !important;
+}
