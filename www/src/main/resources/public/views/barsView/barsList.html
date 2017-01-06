@@ -9,12 +9,12 @@
               <p class="barDescription">{{bars.description}}</p>
             </div>
             <div class="bar-image">
-              <img ng-src="src/main/resources/public/images/large-TapRoom.jpg" temp="BAR NAME">
+              <img ng-src="{{bars.picture}}" temp="BAR NAME">
             </div>
-            <div>
+            <div class="actionIcons">
               <ion-spinner class="android" ng-if="barsData.dataLoading"></ion-spinner>
-              <a ng-click="modal.show()" id="specialsModal"><img class="circle" ng-src="src/main/resources/public/images/ic_attach_money_black_24px.svg">Specials</a>
-              <a href="#" id="directionsModal">Directions</a>
+              <a ng-click="modal.show()" class="circle" id="specialsModal"><img id="specialsIcon" ng-src="src/main/resources/public/images/ic_attach_money_black_24px.svg"></a>
+              <a href="#" id="directionsModal" class="circle"><img id="directionsIcon" ng-src="src/main/resources/public/images/ic_directions_black_24px.svg"></a>
             </div>
           </li>
         </div>

@@ -15,6 +15,7 @@
   function Header($scope, $state, $window)  {
     var self = this;
 
+    //Public functions
 
   }
 

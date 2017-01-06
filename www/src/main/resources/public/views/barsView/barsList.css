@@ -8,13 +8,25 @@
 }
 #specialsIcon {
   fill: #757575;
+  height: 25%;
+}
+#directionsIcon {
+  fill: #757575;
+  height: 25%;
 }
 #specialsModal {
   color: #546E7A;
+  margin-right: 5%;
+  margin-left: -3%;
 }
 #directionsModal {
   color: #546E7A;
 }
-img.circle {
+.circle {
   background: #eeeeee !important;
+  border-radius: 60%;
+  padding-top: 4%;
+}
+.actionIcons {
+  padding-top: 4%;
 }

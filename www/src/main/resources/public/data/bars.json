@@ -4,7 +4,7 @@
     "name": "Taproom",
     "location": "San Marcos, TX",
     "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
+    "picture": "src/main/resources/public/images/large-TapRoom.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"

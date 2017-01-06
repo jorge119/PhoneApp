@@ -18,7 +18,6 @@
     function getBars() {
       return $http.get('src/main/resources/public/data/bars.json');
 
-
     }
 
     function getBarsComplete(response) {
