@@ -3,17 +3,18 @@
   <div ng-repeat="bars in barsData.barsArray" hide-nav-bar="true">
     <ul class="collection">
         <div class="col s12 m7">
-          <li class="card">
-            <div class="card-image">
+          <li class="collection-item">
+            <h3>{{bars.name}}</h3>
+             <div>
+              <p class="barDescription">{{bars.description}}</p>
+            </div>
+            <div class="bar-image">
               <img ng-src="src/main/resources/public/images/large-TapRoom.jpg" temp="BAR NAME">
-              <span class="card-title">{{bars.name}}</span>
             </div>
-            <div class="card-content">
-              <p>{{bars.description}}</p>
-            </div>
-            <div class="card-action">
+            <div>
               <ion-spinner class="android" ng-if="barsData.dataLoading"></ion-spinner>
               <a ng-click="modal.show()">Specials</a>
+
               <a href="#">Directions</a>
             </div>
           </li>
