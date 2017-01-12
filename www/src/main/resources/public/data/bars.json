@@ -30,7 +30,7 @@
     "phone": "555-555"
   },
   {
-    "id": "zelicks,
+    "id": "zelicks",
     "name": "Zelicks Icehouse",
     "location": "San Marcos, TX",
     "description": "Rough 'n' ready roadhouse bar set in a 1930s gas station with TVs, games, a pool table & a patio.",
@@ -40,11 +40,11 @@
     "phone": "555-555"
   },
   {
-    "id": "taproom",
-    "name": "Taproom",
+    "id": "railyard",
+    "name": "Railyard",
     "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
+    "description": "Casual meeting point for sports & beers, with a garden area for pool, ping pong & horseshoes.",
+    "picture": "src/main/resources/public/images/large-railyard.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
