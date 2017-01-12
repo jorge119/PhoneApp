@@ -50,11 +50,11 @@
     "phone": "555-555"
   },
   {
-    "id": "taproom",
-    "name": "Taproom",
+    "id": "rooftop",
+    "name": "Rooftop On the Square",
     "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
+    "description": "San Marco’s Premier Bar and Lounge.",
+    "picture": "src/main/resources/public/images/large-Rooftop.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
