@@ -1,7 +1,8 @@
 <span ng-controller="barsListController as barsData">
+
   <ion-spinner class="android" ng-if="barsData.dataLoading"></ion-spinner>
-  <div ng-repeat="bars in barsData.barsArray" hide-nav-bar="true">
-    <ul class="collection">
+  <div ng-repeat="bars in barsData.barsArray" hide-nav-bar="true" >
+    <ul class="collection z-depth-1">
         <div class="col s12 m7">
           <li class="collection-item">
             <h3>{{bars.name}}</h3>
