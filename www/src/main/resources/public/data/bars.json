@@ -60,91 +60,21 @@
     "phone": "555-555"
   },
   {
-    "id": "taproom",
-    "name": "Taproom",
+    "id": "bobcatNation",
+    "name": "Bobcat Nation Sports Bar & Grill",
     "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
+    "description": "Bobcat Nation is a locally-owned sports bar and grill, featuring a full menu and a complete bar.",
+    "picture": "src/main/resources/public/images/large-bobcatnationdoor.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
   },
   {
-    "id": "taproom",
-    "name": "Taproom",
+    "id": "mayloos",
+    "name": "Mayloo's",
     "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
-    "specials": [],
-    "email": "testemail@square.com",
-    "phone": "555-555"
-  },
-  {
-    "id": "taproom",
-    "name": "Taproom",
-    "location": "San Marcos, TX",
-    "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "http://placehold.it/32x32",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "src/main/resources/public/images/mayloos.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
