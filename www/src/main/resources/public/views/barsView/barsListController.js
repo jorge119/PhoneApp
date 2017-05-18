@@ -45,8 +45,9 @@
     }).then(function(modal) {
       $scope.modal = modal;
     });
-    $scope.openModal = function() {
+    $scope.openModal = function(data) {
       self.dataLoading = true;
+      $scope.bars = data; //passing the instance of the ng-repeat object
       $scope.modal.show();
       self.dataLoading = false;
     };
